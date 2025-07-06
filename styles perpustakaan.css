@@ -1,0 +1,162 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    background-color: rgb(236, 236, 85);
+    padding: 10px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    height: 100px;
+    
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6px;
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Nav bar */
+
+.nav{
+    background-color: rgb(56, 2, 2);
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.nav-item a:hover{
+    color: aqua;
+}
+
+
+/* konten */
+
+.konten{
+    width: 80%;
+    margin: auto;
+}
+
+.konten h1{
+    color: darkgreen;
+    font-size: 35px;
+
+}
+
+.konten h2{
+    font-size: 22px;
+    color: darkgreen;
+}
+
+/* table */
+
+.tabel{
+    border-spacing: 4px;
+}
+
+.tabel-header{
+    background-color: beige;
+
+}
+
+.tabel-header th{
+    padding: 10px;
+    text-align: left;
+}
+
+.tabel-konten{
+    background-color: azure;
+}
+
+.tabel-genap{
+    background-color: aliceblue;
+}
+
+.tabel-konten td{
+    padding: 10px;
+}
+td>img{
+    width: 100px;
+}
+ .tabel-konten:hover{
+    background-color: bisque;
+ }
+
+ /* form */
+
+ .form-grup{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .form-grup label{
+    font-size: 20px;
+    display: block;
+    color: rgb(98, 94, 94);
+    
+ }
+
+ .form-grup input{
+    display: block;
+    margin-top: 10px;
+    width: 60%;
+    border-radius: 5px;
+ }
+
+ .form-grup textarea{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width: 60%;
+    border-radius: 10px;
+
+ }
+
+ .btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: darkgreen;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+
+ }
+
+ .btn:hover{
+    background-color: darkgoldenrod;
+ }
+
+ .btn:active{
+    background-color: blueviolet;
+ }
